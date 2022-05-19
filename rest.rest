@@ -1,0 +1,20 @@
+GET http://localhost:3000/articles
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY1Mjk0MTI0MCwiZXhwIjoxNjUyOTQ0ODQwfQ.GSVFYa0htKyU-VU_qcYhDGiSWrHI6gyO6UIJyduYOEc
+### 
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "email": "Mikel@bond.com",
+  "password": "123456"
+}
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "Mikel@bond.com",
+  "password": "123456"
+}
